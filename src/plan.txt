@@ -1,0 +1,171 @@
+Option A: one-page portfolio
+
+Best for your first React portfolio.
+
+Sections:
+
+Hero
+About
+Skills
+Experience
+Projects
+Contact
+
+This is the easiest and smartest starting point.
+
+Option B: multi-page later
+
+After you’re comfortable:
+
+Home
+About
+Projects
+Contact
+
+For now, I’d do one-page first.
+
+src/
+  assets/
+  components/
+    Header.jsx
+    Hero.jsx
+    About.jsx
+    Skills.jsx
+    Experience.jsx
+    Projects.jsx
+    ProjectCard.jsx
+    Contact.jsx
+    Footer.jsx
+  data/
+    projects.js
+    skills.js
+    experience.js
+  App.jsx
+  main.jsx
+
+  components/
+
+All reusable UI sections.
+
+data/
+
+Keep your content separate from UI.
+
+For example:
+
+projects array
+skills array
+experience array
+
+That helps you learn one of the most important React habits:
+rendering UI from data
+
+Good structure for the actual portfolio
+1. Header
+
+Simple nav:
+
+Home
+About
+Projects
+Contact
+
+Later you can add smooth scrolling.
+
+2. Hero
+
+This should immediately say who you are.
+
+Example content:
+
+Name
+Role: Front-End / Web Developer
+Short line about Astro, Tailwind, React, performance, UI
+Buttons:
+View Projects
+Contact Me
+Resume
+3. About
+
+Short and clear:
+
+who you are
+what you do
+what kind of work you enjoy
+current goal
+
+Keep it professional and human.
+
+4. Skills
+
+Render from array data.
+
+Example categories:
+
+Frontend
+Styling
+Tools
+CMS / Other
+
+You can show:
+
+HTML
+CSS
+JavaScript
+React
+Astro
+Tailwind
+GitHub
+Figma
+SEO basics
+5. Experience
+
+Even if you feel unsure, this section is important.
+
+Show:
+
+company
+role
+dates
+3–4 bullet achievements
+
+You already have real experience, so this section can be strong.
+
+6. Projects
+
+This will be one of the most important sections.
+
+Each card can show:
+
+project title
+short description
+stack
+GitHub link
+live demo link
+
+Start with 2–4 projects.
+
+Good future ideas:
+
+React portfolio
+small React UI demo
+Astro project
+component library work sample
+7. Contact
+
+Simple and clean:
+
+email
+LinkedIn
+GitHub
+maybe location: Perth, WA
+
+You can keep this as a contact section first, then later add a form.
+
+8. Footer
+
+Simple:
+
+your name
+copyright
+social links
