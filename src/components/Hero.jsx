@@ -1,4 +1,5 @@
-import Button from "./Button";
+import Button from "./Base/Button";
+import Badge from "./Base/Badge";
 
 function Hero() {
   return (
@@ -25,18 +26,10 @@ function Hero() {
           <img src="/assets/priya.png" alt="Priya Shah" className="w-75 h-75 rounded-full object-cover" />
           {/* Badges */}
           <div className="flex flex-wrap gap-4 mt-5 items-center justify-center">
-            <span className="bg-(--primary) text-(--text-surface) border border-(--border) px-4 py-2 rounded-full text-sm font-medium">
-              4+ Years Experience
-            </span>
-            <span className="bg-(--primary) text-(--text-surface) border border-(--border) px-4 py-2 rounded-full text-sm font-medium">
-              Landing Pages & SEO Focused Themes
-            </span>
-            <span className="bg-(--primary) text-(--text-surface) border border-(--border) px-4 py-2 rounded-full text-sm font-medium">
-              25+ Websites Built
-            </span>
-            <span className="bg-(--primary) text-(--text-surface) border border-(--border) px-4 py-2 rounded-full text-sm font-medium">
-              Reusable UI Components & Scalable Architecture
-            </span>
+            <Badge>4+ Years Experience</Badge>
+            <Badge>Landing Pages & SEO Focused Themes</Badge>
+            <Badge>25+ Websites Built</Badge>
+            <Badge>Reusable UI Components & Scalable Architecture</Badge>
           </div>
         </div>
       </div>

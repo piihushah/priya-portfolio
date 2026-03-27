@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MenuLinks from "./MenuLinks";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./Base/ThemeToggle";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
