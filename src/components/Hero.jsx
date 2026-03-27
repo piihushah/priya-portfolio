@@ -25,7 +25,7 @@ function Hero() {
         <div className="flex-1 flex flex-col gap-5 items-center justify-center">
           <img src="/assets/priya.png" alt="Priya Shah" className="w-75 h-75 rounded-full object-cover" />
           {/* Badges */}
-          <div className="flex flex-wrap gap-4 mt-5 items-center justify-center">
+          <div className="flex flex-wrap gap-4 mt-5 items-center md:justify-center">
             <Badge>4+ Years Experience</Badge>
             <Badge>Landing Pages & SEO Focused Themes</Badge>
             <Badge>25+ Websites Built</Badge>

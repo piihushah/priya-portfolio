@@ -3,7 +3,7 @@ import Badge from "./Base/Badge";
 function About() {
   return (
     <div className="section">
-      <div className="container flex flex-col md:flex-row gap-5 items-center">
+      <div className="container flex flex-col md:flex-row gap-0 items-center">
         <div className="flex-1">
           <h2 className="smd:text-xl font-semibold text-(--text-secondary)">About Me</h2>
           <h3 className="text-2xl md:text-3xl font-bold text-(--text-primary) mb-4">
