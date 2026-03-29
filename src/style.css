@@ -60,6 +60,22 @@ p {
   .section-sm {
     @apply py-6 md:py-12;
   }
+
+  .card {
+    @apply border rounded-3xl p-8 md:p-12;
+    border-color: var(--border);
+    background-color: var(--surface);
+  }
+
+  .card-link {
+    @apply flex items-center gap-4 rounded-2xl border p-5 transition;
+    border-color: var(--border);
+    background-color: var(--surface);
+  }
+
+  .card-link:hover {
+    background-color: var(--background);
+  }
 }
 
 .component-library-content h2 {

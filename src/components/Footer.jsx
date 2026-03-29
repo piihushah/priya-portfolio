@@ -1,9 +1,54 @@
-function Footer() {
+export default function Footer() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-blue-500">Footer</h1>
-    </div>
-  )
-}
+    <footer>
+      <div className="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div>
+          <h3 className="text-xl font-semibold text-(--text-primary)">Priya Shah</h3>
+          <p className="mt-2 max-w-md text-sm leading-7 text-(--text-primary)">
+            Frontend Developer focused on performance, reusable UI, and modern web experiences.
+          </p>
+        </div>
 
-export default Footer
+        <div className="flex flex-wrap items-center gap-4 text-sm text-(--text-primary)">
+          <a href="#about" className="transition hover:text-(--accent)">
+            About
+          </a>
+          <a href="#projects" className="transition hover:text-(--accent)">
+            Projects
+          </a>
+          <a href="#contact" className="transition hover:text-(--accent)">
+            Contact
+          </a>
+          <a
+            href="/Priya-Shah-Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="transition hover:text-(--accent)"
+          >
+            View CV
+          </a>
+          <a
+            href="https://www.linkedin.com/in/priya-shah-024723144/"
+            target="_blank"
+            rel="noreferrer"
+            className="transition hover:text-(--accent)"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/piihushah"
+            target="_blank"
+            rel="noreferrer"
+            className="transition hover:text-(--accent)"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-6 max-w-7xl border-t border-(--border) pt-6">
+        <p className="text-sm text-(--text-primary)">© 2026 Priya Shah. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+}
