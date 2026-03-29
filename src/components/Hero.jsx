@@ -7,14 +7,22 @@ function Hero() {
       <div className="container flex flex-col md:flex-row gap-5 items-center justify-center ">
         {/* Section One */}
         <div className="flex-1 flex flex-col gap-5">
-          <h1 className="text-2xl md:text-4xl font-bold text-(--text-primary) md:max-w-2xl">
+          <h1 className="text-2xl md:text-3xl font-bold text-(--text-primary) md:max-w-2xl">
             Frontend Developer <br />
-            <span className="text-(--text-accent) ">Frontend Developer with 4+ years of experience</span>
+            <span className="text-(--text-accent) ">
+              4+ years experience building scalable websites, templates, and reusable UI systems using Astro, Tailwind
+              CSS, and JavaScript.
+            </span>
           </h1>
           <p className="text-lg md:text-xl leading-relaxed text-(--text-secondary) md:max-w-2xl">
             Hi, I’m Priya. I’m a frontend developer based in Perth with 4+ years of experience building responsive
             websites, reusable UI components, and user-friendly digital experiences. I focus on clean code, performance,
             and practical design.
+          </p>
+          <p className="mt-3 text-sm text-(--text-primary)">
+            Based in Perth, WA • Open to opportunities.
+            <br />
+            <i className="mt-1">Open to Frontend Developer roles (Perth / Remote)</i>
           </p>
           <div className="flex flex-wrap gap-5">
             <Button onClick={() => window.open("/assets/Priya_Shah_Resume_2026.pdf", "_blank")}>View CV</Button>

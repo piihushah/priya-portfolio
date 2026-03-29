@@ -20,7 +20,7 @@ export default function Footer() {
             Contact
           </a>
           <a
-            href="/Priya-Shah-Resume.pdf"
+            href="/assets/Priya_Shah_Resume_2026.pdf"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-(--accent)"
@@ -46,8 +46,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto mt-6 max-w-7xl border-t border-(--border) pt-6">
-        <p className="text-sm text-(--text-primary)">© 2026 Priya Shah. All rights reserved.</p>
+      <div className="mx-auto mt-6 max-w-7xl border-t border-(--border) pt-6 flex flex-col items-center justify-center gap-1 text-sm text-(--text-primary)">
+        <p>© 2026 Priya Shah. All rights reserved.</p>
+        <p>Designed and built by Priya Shah. Built with React, Tailwind CSS & Vite</p>
       </div>
     </footer>
   );
