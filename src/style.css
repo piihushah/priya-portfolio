@@ -22,6 +22,7 @@
   --primary: #818cf8;
   --primary-hover: #6366f1;
   --accent: #22d3ee;
+  overflow-x: hidden;
 }
 
 html {
@@ -59,4 +60,45 @@ p {
   .section-sm {
     @apply py-6 md:py-12;
   }
+}
+
+.component-library-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+}
+
+.component-library-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+}
+
+.component-library-content pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  margin: 1.5rem 0;
+}
+
+.component-library-content code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.component-library-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.component-library-content * {
+  max-width: 100%;
 }
