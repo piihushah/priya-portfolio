@@ -1,0 +1,167 @@
+---
+title: "Component Library Showcase"
+description: "Simple component library demo with Button, Card (ImageCard), Section, and variants system."
+group: "Base"
+order: 4
+---
+
+# Component Library Showcase
+
+A minimal component library demo highlighting the core building blocks in this Astro components project.
+
+- Button component
+- Card component (ImageCard)
+- Section layout component
+- Variants system (colors, sizes, shadows, borders)
+
+## 1. Section layout (page structure)
+
+<section class="w-full bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 py-16 md:py-24 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Section layout with style variants</h2>
+    <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+      Use `Section` to wrap content with background and padding variants, then place components inside.
+    </p>
+  </div>
+</section>
+
+## 2. Button component
+
+### Primary and secondary buttons
+
+<div class="not-prose my-8 p-6 bg-white dark:bg-gray-900 rounded-lg border dark:border-gray-700">
+  <div class="flex flex-wrap gap-4 items-center justify-center">
+    <button class="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+      Primary
+    </button>
+    <button class="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-gray-900 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:border-gray-400 active:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+      Inverse
+    </button>
+    <button class="inline-flex items-center justify-center px-6 py-3 text-base lg:text-lg font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+      Large CTA
+    </button>
+  </div>
+</div>
+
+```jsx
+<button className="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+  Primary
+</button>
+<button className="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-gray-900 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:border-gray-400 active:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+  Inverse
+</button>
+<button className="inline-flex items-center justify-center px-6 py-3 text-base lg:text-lg font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+  Large CTA
+</button>
+```
+
+## 3. Card component (ImageCard)
+
+### Card examples with rounded/shadow/border variants
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+  <div class="w-full h-auto rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+    <img
+      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+      alt="Card example landscape"
+      class="w-full h-auto object-cover aspect-[4/3]"
+      loading="lazy"
+    />
+  </div>
+  <div class="w-full h-auto rounded-md shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+    <img
+      src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0"
+      alt="Card example portrait"
+      class="w-full h-auto object-cover aspect-[3/2]"
+      loading="lazy"
+    />
+  </div>
+  <div class="w-full h-auto rounded-full shadow-none border-none overflow-hidden">
+    <img
+      src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+      alt="Card example square"
+      class="w-full h-auto object-cover aspect-square"
+      loading="lazy"
+    />
+  </div>
+</div>
+
+```jsx
+<div className="w-full h-auto rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+  <img
+    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+    alt="Card example landscape"
+    className="w-full h-auto object-cover aspect-[4/3]"
+    loading="lazy"
+  />
+</div>
+<div className="w-full h-auto rounded-md shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden">
+  <img
+    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0"
+    alt="Card example portrait"
+    className="w-full h-auto object-cover aspect-[3/2]"
+    loading="lazy"
+  />
+</div>
+<div className="w-full h-auto rounded-full shadow-none border-none overflow-hidden">
+  <img
+    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    alt="Card example square"
+    className="w-full h-auto object-cover aspect-square"
+    loading="lazy"
+  />
+</div>
+```
+
+## 4. Variants system
+
+All components are built on a shared variants system in `utils/variants.ts`.
+
+- Button: `type` (`primary`, `inverse`, etc.), `size` (`sm`, `md`, `lg`)
+- ImageCard: `rounded`, `shadow`, `border`
+- Section: `bg`, `padding`, `spacing`
+
+### Example: responsive variant composition
+
+<section class="w-full bg-blue-100 dark:bg-blue-900 py-12 md:py-16 px-4 rounded-2xl">
+  <div class="max-w-4xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Variant-driven design</h3>
+    <div class="flex flex-wrap gap-4 justify-center">
+      <button class="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Primary
+      </button>
+      <button class="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-gray-900 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:border-gray-400 active:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Inverse
+      </button>
+      <button class="inline-flex items-center justify-center px-3 py-1.5 text-xs lg:text-sm font-medium uppercase text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Small
+      </button>
+    </div>
+  </div>
+</section>
+
+```jsx
+<section className="w-full bg-blue-100 dark:bg-blue-900 py-12 md:py-16 px-4 rounded-2xl">
+  <div className="max-w-4xl mx-auto">
+    <h3 className="text-2xl font-semibold mb-4 text-center">Variant-driven design</h3>
+    <div className="flex flex-wrap gap-4 justify-center">
+      <button className="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Primary
+      </button>
+      <button className="inline-flex items-center justify-center px-4 py-2 text-sm lg:text-base font-medium text-gray-900 bg-white border border-gray-300 rounded-md hover:bg-gray-50 hover:border-gray-400 active:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Inverse
+      </button>
+      <button className="inline-flex items-center justify-center px-3 py-1.5 text-xs lg:text-sm font-medium uppercase text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+        Small
+      </button>
+    </div>
+  </div>
+</section>
+```
+
+---
+
+## Recommended next step
+
+- Add this file as a docs entry point and link from `components.md` if you want it in the sidebar.
+- Expand with more components when you need 4+. 2–3 components are enough for a focused showcase.
