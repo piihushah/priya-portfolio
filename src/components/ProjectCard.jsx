@@ -11,7 +11,7 @@ export default function ProjectCard({ project }) {
         <img
           src={project.image}
           alt={project.title}
-          className="h-48 w-full object-cover transition-transform duration-300 rounded-t-xl mb-4"
+          className="h-50 w-full object-cover transition-transform duration-300 rounded-t-xl mb-4 ring-2 ring-(--border)"
         />
       </div>
       <div className="px-6">

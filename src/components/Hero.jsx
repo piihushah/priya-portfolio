@@ -10,8 +10,8 @@ function Hero() {
           <h1 className="text-2xl md:text-3xl font-bold text-(--text-primary) md:max-w-2xl">
             Frontend Developer <br />
             <span className="text-(--text-accent) ">
-              4+ years experience building scalable websites, templates, and reusable UI systems using Astro, Tailwind
-              CSS, and JavaScript.
+              4+ years building scalable, high-performance websites and reusable UI systems with Astro, Tailwind CSS,
+              and JavaScript.
             </span>
           </h1>
           <p className="text-lg md:text-xl leading-relaxed text-(--text-secondary) md:max-w-2xl">

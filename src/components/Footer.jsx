@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-        <div>
+        <div className="mt-4">
           <h3 className="text-xl font-semibold text-(--text-primary)">Priya Shah</h3>
           <p className="mt-2 max-w-md text-sm leading-7 text-(--text-primary)">
             Frontend Developer focused on performance, reusable UI, and modern web experiences.
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto mt-6 max-w-7xl border-t border-(--border) pt-6 flex flex-col items-center justify-center gap-1 text-sm text-(--text-primary)">
+      <div className="mx-auto mt-6 max-w-7xl border-t border-(--border) pt-6 flex flex-col items-center justify-center gap-1 text-sm text-(--text-primary) px-4 text-center">
         <p>© 2026 Priya Shah. All rights reserved.</p>
         <p>Designed and built by Priya Shah. Built with React, Tailwind CSS & Vite</p>
       </div>
