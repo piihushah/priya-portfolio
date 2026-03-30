@@ -12,65 +12,65 @@ function About() {
           </h3>
           <div className="mt-2.5 md:text-lg md:max-w-xl leading-7">
             <p>
-              I’m a Frontend Developer with 4+ years of experience building high-performance, SEO-optimised websites,
-              landing pages, and reusable UI components.
+              I'm a Frontend Developer with 4+ years of experience building scalable, high-performance websites and
+              reusable UI systems.
             </p>
             <p>
-              I specialise in React, Astro, Tailwind CSS, and JavaScript, focusing on scalable architecture, clean code,
-              and performance improvements.
+              I enjoy turning complex requirements into simple, user-friendly interfaces, with a strong focus on
+              performance, SEO, and clean architecture.
             </p>
             <p>
-              I work closely with Figma designs to create responsive, accessible interfaces and continuously improve
-              page speed and Lighthouse scores.
+              I've worked on 25+ production websites and contributed to building reusable component systems to improve
+              development efficiency.
             </p>
-            <p>I’m currently looking for an opportunity to grow and contribute to a collaborative frontend team.</p>
+            <p>
+              Currently, I'm exploring new opportunities where I can continue building impactful frontend experiences.
+            </p>
           </div>
         </div>
         <div className="flex-1">
           <div className="space-y-6 md:max-w-2xl">
-            {/* Core Strengths */}
+            {/* Frontend Stack */}
             <div>
-              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Core Strengths</h4>
-              <div className="flex flex-wrap gap-2">
-                <Badge>Reusable Components</Badge>
-                <Badge>Performance Optimization</Badge>
-                <Badge>SEO-Friendly Development</Badge>
-                <Badge>Scalable Architecture</Badge>
-              </div>
-            </div>
-
-            {/* Frontend */}
-            <div>
-              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Frontend</h4>
+              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Frontend Stack</h4>
               <div className="flex flex-wrap gap-2">
                 <Badge>React</Badge>
-                <Badge>JavaScript (ES6+)</Badge>
                 <Badge>Astro</Badge>
+                <Badge>JavaScript (ES6+)</Badge>
                 <Badge>HTML5 & CSS3</Badge>
                 <Badge>Tailwind CSS</Badge>
               </div>
             </div>
 
-            {/* UI & UX */}
+            {/* Design & UI */}
             <div>
-              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">UI & UX</h4>
+              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Design & UI</h4>
               <div className="flex flex-wrap gap-2">
+                <Badge>Figma</Badge>
                 <Badge>Responsive Design</Badge>
-                <Badge>Figma to Code</Badge>
+                <Badge>Component Architecture</Badge>
                 <Badge>Accessibility Basics</Badge>
-                <Badge>UI Components</Badge>
               </div>
             </div>
 
-            {/* Tools & Workflow */}
+            {/* Performance & SEO */}
             <div>
-              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Tools & Workflow</h4>
+              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Performance & SEO</h4>
+              <div className="flex flex-wrap gap-2">
+                <Badge>Page Speed Optimization</Badge>
+                <Badge>Lazy Loading</Badge>
+                <Badge>Scalable Structure</Badge>
+              </div>
+            </div>
+
+            {/* Workflow & Tools */}
+            <div>
+              <h4 className="text-xl font-semibold text-(--text-primary) mb-3">Workflow & Tools</h4>
               <div className="flex flex-wrap gap-2">
                 <Badge>GitHub</Badge>
                 <Badge>Jira</Badge>
                 <Badge>Agile / Scrum</Badge>
-                <Badge>Performance Optimization</Badge>
-                <Badge>SEO Basics</Badge>
+                <Badge>Vercel</Badge>
               </div>
             </div>
           </div>
