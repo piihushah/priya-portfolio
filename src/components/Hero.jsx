@@ -25,7 +25,9 @@ function Hero() {
             <i className="mt-1">Open to Frontend Developer roles (Perth / Remote)</i>
           </p>
           <div className="flex flex-wrap gap-5">
-            <Button onClick={() => window.open("/assets/Priya_Shah_Resume_2026.pdf", "_blank")}>View CV</Button>
+            <Button onClick={() => window.open("/assets/Priya_Shah_FrontEnd_Developer_2026.pdf", "_blank")}>
+              View CV
+            </Button>
             <Button onClick={() => (window.location.hash = "#projects")}>View Projects</Button>
           </div>
         </div>

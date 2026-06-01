@@ -20,7 +20,7 @@ export default function Footer() {
             Contact
           </a>
           <a
-            href="/assets/Priya_Shah_Resume_2026.pdf"
+            href="/assets/Priya_Shah_FrontEnd_Developer_2026.pdf"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-(--accent)"

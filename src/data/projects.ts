@@ -14,20 +14,20 @@ export default [
     ],
     link: "/component-library",
   },
-  {
-    title: "Locafy",
-    subTitle: "Production Website (SEO-focused)",
-    description:
-      "Developed frontend features for a production website using Astro, Tailwind CSS, and TypeScript, focusing on scalable layouts, reusable components, and SEO-optimised structure.",
-    image: "/assets/locafy.png",
-    techStack: ["Astro", "Tailwind CSS", "TypeScript"],
-    highlights: [
-      "Implemented reusable layout system",
-      "Improved scalability with component-based architecture",
-      "Enhanced SEO structure for better visibility",
-    ],
-    link: "https://locafy.com/",
-  },
+  // {
+  //   title: "Locafy",
+  //   subTitle: "Production Website (SEO-focused)",
+  //   description:
+  //     "Developed frontend features for a production website using Astro, Tailwind CSS, and TypeScript, focusing on scalable layouts, reusable components, and SEO-optimised structure.",
+  //   image: "/assets/locafy.png",
+  //   techStack: ["Astro", "Tailwind CSS", "TypeScript"],
+  //   highlights: [
+  //     "Implemented reusable layout system",
+  //     "Improved scalability with component-based architecture",
+  //     "Enhanced SEO structure for better visibility",
+  //   ],
+  //   link: "https://locafy.com/",
+  // },
   {
     title: "Proximity Nova",
     subTitle: "Theme-Based Landing Page Template",
