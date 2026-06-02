@@ -66,4 +66,18 @@ export default [
     ],
     link: "https://bluelineworks.com/",
   },
+  {
+    title: "City Beach Basketball Club",
+    subTitle: "Custom Website for sports club",
+    description:
+      "Developed a custom website for a local basketball club using Astro and Tailwind CSS, focusing on a user-friendly interface and responsive design.",
+    image: "/assets/city-beach.png",
+    techStack: ["Astro", "Tailwind CSS", "TypeScript"],
+    highlights: [
+      "Custom design tailored to club's needs",
+      "Responsive layout for all devices",
+      "Improved user experience for members and visitors",
+    ],
+    link: "https://citybeachbasketball.com.au/",
+  },
 ];
