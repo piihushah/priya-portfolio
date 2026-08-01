@@ -1,6 +1,23 @@
 export default [
   {
     title: "Astro Component Library",
+    subTitle: "Concept Project · UI Design & Frontend Development",
+    description:
+      "A modern, responsive website concept created for a local cleaning business. The website includes service cards, a clear booking process, customer review layouts, a quote enquiry form and strong calls to action.",
+    image: "/assets/clean.png",
+    techStack: ["Astro", "Tailwind Variants", "Tailwind CSS", "TypeScript"],
+    highlights: [
+      "Designed and developed a conversion-focused cleaning business website",
+      "Built reusable, data-driven Astro components for scalable content management",
+      "Created a responsive UI with consistent spacing, typography and visual hierarchy",
+      "Structured the page around services, trust signals and customer enquiries",
+      "Integrated optimised images, reusable icons and accessible form elements",
+      "Deployed as a fast static website using Astro and Cloudflare Pages",
+    ],
+    link: "https://pheonix-premium-clear.pages.dev/",
+  },
+  {
+    title: "SparkClean Services — Cleaning Business Website Concept",
     subTitle: "Reusable layout system used across multiple production pages",
     description:
       "Developed a reusable component library using Astro and Tailwind CSS, implementing a scalable variants system and consistent UI patterns to accelerate development across multiple projects.",
