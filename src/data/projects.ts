@@ -4,7 +4,7 @@ export default [
     subTitle: "Concept Project · UI Design & Frontend Development",
     description:
       "A modern, responsive website concept created for a local cleaning business. The website includes service cards, a clear booking process, customer review layouts, a quote enquiry form and strong calls to action.",
-    image: "/assets/clean.png",
+    image: "/assets/component-library.png",
     techStack: ["Astro", "Tailwind Variants", "Tailwind CSS", "TypeScript"],
     highlights: [
       "Designed and developed a conversion-focused cleaning business website",
@@ -14,14 +14,14 @@ export default [
       "Integrated optimised images, reusable icons and accessible form elements",
       "Deployed as a fast static website using Astro and Cloudflare Pages",
     ],
-    link: "https://pheonix-premium-clear.pages.dev/",
+    link: "/component-library",
   },
   {
     title: "SparkClean Services — Cleaning Business Website Concept",
     subTitle: "Reusable layout system used across multiple production pages",
     description:
       "Developed a reusable component library using Astro and Tailwind CSS, implementing a scalable variants system and consistent UI patterns to accelerate development across multiple projects.",
-    image: "/assets/component-library.png",
+    image: "/assets/clean.png",
     techStack: ["Astro", "Tailwind Variants", "Tailwind CSS", "TypeScript"],
     highlights: [
       "Accelerated development using reusable UI components",
@@ -29,22 +29,25 @@ export default [
       "Scalable component architecture",
       "Used across multiple production projects",
     ],
-    link: "/component-library",
+    link: "https://phoenix-premium-clear.pages.dev/",
   },
-  // {
-  //   title: "Locafy",
-  //   subTitle: "Production Website (SEO-focused)",
-  //   description:
-  //     "Developed frontend features for a production website using Astro, Tailwind CSS, and TypeScript, focusing on scalable layouts, reusable components, and SEO-optimised structure.",
-  //   image: "/assets/locafy.png",
-  //   techStack: ["Astro", "Tailwind CSS", "TypeScript"],
-  //   highlights: [
-  //     "Implemented reusable layout system",
-  //     "Improved scalability with component-based architecture",
-  //     "Enhanced SEO structure for better visibility",
-  //   ],
-  //   link: "https://locafy.com/",
-  // },
+  {
+    title: "Aroma Cafe — Coffee Shop Website Concept",
+    subTitle: "Reusable layout system used across multiple production pages",
+    description:
+      "A responsive café website concept designed around brand storytelling, featured dishes, customer reviews, location details and online ordering.",
+    image: "/assets/cafe.png",
+    techStack: ["Astro", "Tailwind Variants", "Tailwind CSS", "TypeScript"],
+    highlights: [
+      "Designed a warm, brand-led café website with a distinct visual identity",
+      "Built reusable Astro components for menu items, testimonials and business information",
+      "Created responsive layouts combining immersive imagery with clear customer actions",
+      "Developed a data-driven featured menu for easy content and pricing updates",
+      "Structured the experience around discovery, trust, location and online ordering",
+      "Implemented a cohesive design system using typography, colour and decorative elements",
+    ],
+    link: "https://phoenix-premium-flow.pages.dev/",
+  },
   {
     title: "Proximity Nova",
     subTitle: "Theme-Based Landing Page Template",
